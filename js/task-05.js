@@ -3,8 +3,8 @@ const span = document.querySelector("#name-output");
 
 input.addEventListener("input", (event) => {
   if (input.value != "") {
-    span.innerHTML = input.value;
+    span.textContent = input.value;
   } else {
-    span.innerHTML = "Anonymous";
+    span.textContent = "Anonymous";
   }
 });
